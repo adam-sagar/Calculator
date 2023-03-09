@@ -7,15 +7,22 @@ button {
     font-size: 20px;
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: beige;
+    font-family: 'Orbitron';
 }
 
 .screen {
     width: 345px;
-    height: 70px;
+    height: 80px;
     border: 2px solid black;
-    border-radius: 10px;
-    background-color: lightcyan;
+    border-radius: 20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    background-image: linear-gradient(to left, lightcyan, white);
+    font-size: 32px;
+    direction: rtl;
+    text-indent: 20px;
+    font-family: 'Orbitron';
 }
 
 .operator {
@@ -43,14 +50,21 @@ button {
 }
 
 button:hover {
-    background-color: rgb(190, 190, 190)
+    background-color: rgb(209, 209, 189)
 }
 
 .calculator {
-    background-color: cornflowerblue;
+    background-image: linear-gradient(to left, cornflowerBlue, rgb(26, 105, 253));
     width: 356px;
     padding: 10px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
