@@ -3,18 +3,11 @@ let operand2 = '';
 let operator = '';
 
 function addNumber(number) {
-    // if (operand1 == '') {
-    //     operand1 = number
-    // } else {
-    // operand2 = number}
-    // document.getElementById('results').value = number
-    if (operator == '') {
-        operand1 = operand1.toString() + number.toString();
-        document.getElementById('results').value = operand1
+    if (operand1 == '') {
+        operand1 = number
     } else {
-        operand2 = operand2.toString() + number.toString();
-        document.getElementById('results').value = operand2
-    }
+    operand2 = number}
+    document.getElementById('results').value = number
 }
 
 function selectOperator(op) {
